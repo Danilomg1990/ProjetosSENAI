@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>🎰 Cassino - Caça Níquel</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎰 Jogo de Caça Níquel</h1>
+
+        {% if resultado %}
+            <div class="slots">
+                {% for simbolo in resultado %}
+                    <span class="simbolo">{{ simbolo }}</span>
+                {% endfor %}
+            </div>
+            <p class="mensagem">{{ mensagem }}</p>
+        {% endif %}
+
+        <form method="POST">
+            <button type="submit">Puxar Alavanca</button>
+        </form>
+    </div>
+</body>
+</html>

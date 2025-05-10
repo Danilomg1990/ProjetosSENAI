@@ -1,0 +1,35 @@
+body {
+    background-color: #222;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+}
+
+.slots {
+    font-size: 60px;
+    margin: 20px 0;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: gold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+.mensagem {
+    font-size: 24px;
+    margin-top: 15px;
+}
