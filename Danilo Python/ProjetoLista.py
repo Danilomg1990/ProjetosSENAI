@@ -41,3 +41,13 @@ valores.insert(2,"DANILO")
 print(valores)
 print(f"A lista contem {len(valores)} itens.")
 
+nomes=["Luiz","Gustavo","Vinicius","Heron","Lucas"]
+
+print(nomes)
+#classifica em ordem crescente
+nomes.sort()
+print(nomes)
+#classidica em ordem descrecente 
+nomes.sort(reverse=True)
+print(nomes)
+
