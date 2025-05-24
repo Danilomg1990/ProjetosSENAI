@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Caça-Níquel-do-Danilo</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>🎰 Caça-Níquel-do-Danilo</h1>
+    <p><strong>Saldo:</strong> {{ saldo }} moedas</p>
+
+    <form method="post">
+        <label for="aposta">Quanto deseja apostar?</label>
+        <input type="number" name="aposta" min="1" required>
+        <button type="submit">Rodar</button>
+    </form>
+
+    {% if resultado %}
+        <div class="resultado">
+            {{ resultado[0] }} {{ resultado[1] }} {{ resultado[2] }}
+        </div>
+    {% endif %}
+
+    <p>{{ mensagem }}</p>
+
+    <a href="{{ url_for('resetar') }}">🔄 Resetar jogo</a>
+</body>
+</html>
+

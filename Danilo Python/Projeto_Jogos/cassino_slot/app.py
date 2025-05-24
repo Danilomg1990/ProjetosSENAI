@@ -21,6 +21,25 @@ simbolos = [
     '🃏',  # Curinga
     '🎁',  # Presente (bônus)
     '🔥',  # Fogo (símbolo especial)
+    '🪄',  # Varinha mágica
+    '🧨',  # Bombinha
+    '🦄',  # Unicórnio
+    '🌈',  # Arco-íris
+    '🎩',  # Cartola
+    '🛸',  # Disco voador
+    '👻',  # Fantasma
+    '🌟',  # Estrela brilhante
+    '🪅',  # Piñata
+    '🥇',  # Medalha de ouro
+    '🔷',  # Diamante azul
+    '💲',  # Cifrão
+    '🦜',  # Papagaio
+    '🍭',  # Pirulito
+    '🎈',  # Balão
+    '🌙',  # Lua
+    '☠️',  # Caveira
+    '🐉',  # Dragão
+    '🧿',  # Olho grego
 ]
 
 @app.route('/', methods=['GET', 'POST'])
