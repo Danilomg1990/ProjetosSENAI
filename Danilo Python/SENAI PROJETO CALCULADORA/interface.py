@@ -20,6 +20,9 @@ def Iniciar():
     print(" 0 - Sair")
     print("")
 
+#P115 - Autor: Vitor N
+# "Desenvolvimento interface boas vindas"
+# Revisor - André
 def bemvindo():
     print("---------------------------------------- \n|                                      |\n|             Calculadora              |\n|        Seja bem vindo usuário.       |\n|                                      |\n|                                      |\n|                                      |\n|                                      |\n|                                      |\n|                                      |\n----------------------------------------")
 

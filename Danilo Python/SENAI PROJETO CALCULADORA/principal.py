@@ -2,10 +2,6 @@
 # "Criar e preparar novo arquivo princinpal.py"
 # Revisor - André
 
-
-#P115 - Autor: Vitor N
-# "Desenvolvimento interface boas vindas"
-# Revisor - André
 from os import system as limp
 import historico as historico
 import operacoes as calc
@@ -20,19 +16,22 @@ def menu_opcao():
          operacao = int(input("Selecione uma opção: "))
          break
        except ValueError:
-           print("Valor inválido...")
+           print("\nValor inválido...\n")
            continue
     return operacao
 while True:
     oper= menu_opcao()
+    if oper == 0: 
+        print("Obrigado por utilizar a calculadora!")
+        break
     valor1 = float(input("Digite o primeiro valor: "))
     if oper in (1, 2, 3, 4, 5):
         valor2 = float(input("Digite o segundo valor: "))
-    elif oper == 0:
-        print("Obrigado por utilizar a calculadora!")
-        break
-
+        
     resutado=calc.verificar_operacoes(oper, valor1, valor2)
+    print(resutado)
+
+    input("Precione Enter para contiuar...")
 
 
 
