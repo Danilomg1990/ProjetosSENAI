@@ -46,6 +46,15 @@ def menu_opcao():
            continue
     return operacao
 
+def get_valor(texto):
+    while True:
+        try:
+            valor = float(input(texto))
+            return valor
+        except ValueError:
+            print("Valor inválido! Tente novamente!")
+            continue;
+
 while True:
     valor1 = 0
     valor2 = 0
@@ -57,9 +66,9 @@ while True:
         game.iniciar_game()
         continue
     else:
-        valor1 = float(input("Digite o primeiro valor: "))
+        valor1 = get_valor("Digite o primeiro valor: ")
         if oper in (1, 2, 3, 4, 5, 6):
-            valor2 = float(input("Digite o segundo valor: "))
+            valor2 = get_valor("Digite o segundo valor: ")
             
         resultado = calc.verificar_operacoes(oper, valor1, valor2)
         mensagem = f'Resultado da operação de {nome_operacoes.get(str(oper))} é: {resultado}'
@@ -69,3 +78,4 @@ while True:
         print(mensagem)
         
     input("Precione Enter para continuar...")
+
