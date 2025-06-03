@@ -7,7 +7,7 @@
 # "desenvolvimento interface usuario"
 # Revisor - Andre
 def Iniciar():
-    print(" 1 - Soma")
+    print(" 1 - Adição")
     print(" 2 - Subtração")
     print(" 3 - Multiplicação")
     print(" 4 - Divisão")
@@ -16,7 +16,8 @@ def Iniciar():
     print(" 7 - Seno")
     print(" 8 - Cosseno")
     print(" 9 - Tangente")
-    print("10 - Código Secreto")
+    # print("10 - Código Secreto") - Se é secreto não pode aparecer
+    print()
     print(" 0 - Sair")
     print("")
 

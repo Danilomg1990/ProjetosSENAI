@@ -6,11 +6,8 @@ import math
 #P126 - Autor:Lucas V
 # "Criar função que verifica queoperação o usuario selecionou"
 # Revisor - Nathan
-def verificar_operacoes(operacao: int, valor1, valor2):
+def verificar_operacoes(operacao: int, valor1, valor2=0):
        
-        if operacao == 9:
-            print("Opção SAIR Selecionada.")
-            
         if operacao == 1:
             print("Opção Soma Selecionada.")
             valor = soma(valor1, valor2)
@@ -38,7 +35,7 @@ def verificar_operacoes(operacao: int, valor1, valor2):
 
         elif operacao == 6:
             print("Opção Raiz Selecionada.")
-            valor = raiz(valor1)
+            valor = raiz(valor1, valor2)
             return  valor
 
         elif operacao == 7:
@@ -80,7 +77,7 @@ def expoente(valor1, valor2):
     return res
 
 #P105 - Autor: Felipe
-# "Criar função que extrai a raiz da variavela"
+# "Criar função que extrai a raiz da variavel"
 # Revisor - Nathan
 def raiz(valor1, valor2):
     if valor2 == 0:
