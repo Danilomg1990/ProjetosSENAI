@@ -1,0 +1,16 @@
+Foundational knowledge
+on generative AI is essential as the first step in this journey of finding more, what is generative AI all about? We'll look a little bit about the brief history and
+the evolution of AI. What was it like
+10, 50 years ago, and where are we right now? Maybe a hint of
+what are the things that we're looking at
+as we move forward. Then we'll take a look at how these large language models, as we call them, how do
+they work in applications? How are these connected and how everything is
+happening behind the scenes. Demystify how these things are working together in order to
+provide a good experience. Finally, we'll talk
+a little bit of how these machine
+learning models and in this case large
+language models, how are they created? What does it take to build one? What are some of the things
+that need to happen in order for the creation of a
+large language model. It is tricky, it is complex, but we'll try to make it very straightforward so
+that you have a good, solid understanding on all of these pieces
+as we move along.

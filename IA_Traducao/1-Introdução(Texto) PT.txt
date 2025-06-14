@@ -1,0 +1,7 @@
+O conhecimento fundamental sobre inteligência artificial generativa é essencial como o primeiro passo nessa jornada de descoberta. Afinal, do que se trata a IA generativa? Vamos começar com um breve histórico e a evolução da IA. Como ela era há 10 ou 50 anos, e onde estamos agora? Talvez até um vislumbre do que estamos esperando para o futuro.
+
+Em seguida, veremos como esses modelos de linguagem de grande escala — como os chamamos — funcionam em aplicações. Como eles estão conectados e como tudo acontece nos bastidores. Vamos desmistificar como essas tecnologias trabalham juntas para oferecer uma boa experiência.
+
+Por fim, falaremos um pouco sobre como esses modelos de aprendizado de máquina — e, neste caso, os modelos de linguagem de grande escala — são criados. O que é necessário para construir um desses modelos? Quais são os elementos e etapas essenciais para a criação de um modelo de linguagem de grande porte?
+
+É um processo complexo e desafiador, mas vamos tentar explicá-lo de forma clara e objetiva, para que você tenha uma compreensão sólida de todas essas partes ao longo do caminho.
